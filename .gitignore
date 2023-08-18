@@ -1,2 +1,3 @@
 .vscode/
 env.yml
+docker-compose.yml

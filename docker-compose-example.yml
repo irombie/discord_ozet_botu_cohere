@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  discord_bot:
+    container_name: discord_bot
+    build: .
+    restart: unless-stopped
+    environment:
+      DISCORD_TOKEN:
+      COHERE_API_KEY:
+      GUILD_ID:
+      ADMIN_DISCORD_ID:
+      PROMPT_FILE: "cohere.txt"
