@@ -105,11 +105,7 @@ class DiscordBot(discord.AutoShardedClient):
         return response.summary
 
     async def on_message(self, message):
-        if (self.user.mentioned_in(message) and message.author != self.user) or (
-            isinstance(message.channel, discord.Thread)
-            and message.channel.owner == self.user
-            and message.author != self.user
-        ):
+        if (self.user.mentioned_in(message) and message.author != self.user):
             async with message.channel.typing():
                 history = await self.make_history(message, num_historic_msgs=20)
                 prompt = self.prepare_prompt(
