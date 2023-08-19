@@ -18,7 +18,7 @@ Bu adimlarin sonunda kendimize bir Discord sunucusu acip botumuzu oraya eklemis 
 6. Bu degisiklikleri yaptiktan sonra bu sayfanin altindaki “Generated URL” kismindaki linki kopyalayip tarayiciniza yapistirin. 1. Asamada yarattiginiz sunucuyu secip “Authorize”a tiklayin. Ve bu hareketle botunuz o sunucuya eklenmis oldu! 
 
 ### Cohere API Key
-1. https://cohere.com'a gidin. Hesap olusturup giris yapin. 
+1. https://cohere.com 'a gidin. Hesap olusturup giris yapin. 
 2. https://dashboard.cohere.ai/api-keys linkine gidip API key'inize ulasabilirsiniz.
 
 ### env.yml dosyasi olusturma (Dersin basinda bu kismin uzerinden bir kere daha gececegiz)
