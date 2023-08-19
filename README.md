@@ -27,3 +27,8 @@ Bu adimlarin sonunda kendimize bir Discord sunucusu acip botumuzu oraya eklemis 
 2. `DISCORD_TOKEN` satirina yukarida olusturdugunuz botun tokenini yapistirin. Bu linkte yarattiginiz uygulamaya tiklayarak tokeni bulabilirsiniz: https://discord.com/developers/applications/
 3. `COHERE_API_KEY` satirina Cohere API key'inizi yapistirin.
 4. `GUILD_ID` kismina yukarida yarattiginiz sunucunun ID'sini yapistirin. ID'yi bulmak icin buradaki asamalari takip edebilirsiniz: https://support.discord.com/hc/tr/articles/206346498-Kullan%C4%B1c%C4%B1-Sunucu-Mesaj-ID-sini-Nerden-Bulurum-
+
+
+### Calistirma
+- Direkt calistirmak icin klasore cd'leyip `python3 discord_bot.py` komutunu calistirin! Botu etiketlediginizde size ozeti verecek! 
+- Docker ile calistirmak icin `docker compose up --build -d && docker logs -f discord_bot` komutunu kullanabilirsiniz. Bu sekilde calistirirsaniz bu terminal session'i kapansa bile bot cevrimici olmaya devam edecektir! 
